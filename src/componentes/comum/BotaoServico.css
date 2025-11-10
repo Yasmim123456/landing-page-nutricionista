@@ -1,0 +1,56 @@
+.botao-servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(10deg, #262c26, #009e00); 
+    color:var(--cor--texto-claro);
+    width: 235px;
+    min-height:100px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    padding: 10px;
+}
+
+.botao-servico:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.icone-servico svg {
+    width: 32px;
+    height: 32px;
+}
+
+/* Responsividade - Tablet */
+@media (max-width: 1280px) {
+    .botao-servico {
+        min-height: 110px;
+        width: 120px;
+        padding: 18px 30px;
+        font-size: 12px;
+    }
+
+    .icone-servico svg {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    .botao-servico {
+        width: 80px;
+        min-height: 90px;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .icone-servico svg {
+        width: 20px;
+        height: 20px;  
+    }
+}

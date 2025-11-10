@@ -1,0 +1,46 @@
+.botoes-servicos-area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    height: 0;
+}
+
+.botoes-servicos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    top: -50px;
+    position: relative;
+    z-index: 10;
+}
+.botoes-servicos .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media (max-width: 1280px) {
+   .botoes-servicos .container {
+    gap: 45px;
+  }
+}
+
+@media (max-width: 690px) { 
+   .botoes-servicos .container {
+     gap: 35px;
+  }
+}
+
+@media (max-width: 650px) {
+   .botoes-servicos .container {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) { 
+   .botoes-servicos .container { 
+    gap: 10px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,80 @@
+.sobre-a-nutri {
+    background-color: var(--cor-de-fundo-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.bloco-sobre {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.bloco-sobre__imagem {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.bloco-sobre__conteudo {
+    width: 50%;
+}
+
+.bloco-sobre__texto {
+    padding: 20px 0;
+}
+
+/*Tablet*/
+@media (max-width: 1280px) {
+  .bloco-sobre {
+    gap: 30px;
+  }
+
+  .bloco-sobre__imagem {
+    max-width: 350px;
+  }
+
+  .bloco-sobre__texto {
+    padding: 6px 0;
+}
+}
+
+/* Celular*/
+@media (max-width: 600px) {
+  .sobre-a-nutri {
+    padding: 60px 20px 50px;
+  }
+
+  .bloco-sobre {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .bloco-sobre__imagem {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .bloco-sobre__conteudo {
+    width: 100%;
+  }
+
+  .bloco-sobre__texto {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px 0 20px;
+  }
+
+  .botao {
+    font-size: 0.9rem;
+    padding: 10px 22px;
+  }
+}

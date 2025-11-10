@@ -1,0 +1,93 @@
+.secao-nutricionista {
+    background-color: rgb(197, 196, 196);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px; 
+    padding: 160px 50px 10px;
+}
+
+.bloco-pergunta {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.bloco-pergunta-caixa {
+    width: 50%;
+}
+
+.bloco-pergunta-titulo{
+    color: var(--cor-texto-claro);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    font-size: 50px;
+}
+
+.bloco-pergunta-respostas {
+    background-color: rgba(82, 134, 80, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bloco-pergunta-lista {
+    list-style-type: '✓ ';
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(82, 134, 80);
+    color: var(--cor-texto-secundaria);
+}
+
+.bloco-pergunta-lista strong {
+    color: #ffffff;
+}
+
+/*Tablet */
+@media (max-width: 1280px) {
+
+  .secao-nutricionista {
+    padding: 100px 0px 10px;
+  }
+
+  .bloco-pergunta {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .bloco-pergunta-caixa,
+  .bloco-pergunta-respostas {
+    width: 100%;
+  }
+
+  .bloco-pergunta-titulo {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .bloco-pergunta-lista {
+    padding: 15px 15px 15px 30px;
+    gap: 15px;
+  }
+}
+
+/*Celular*/
+@media (max-width: 600px) {
+  .bloco-pergunta-titulo {
+    font-size: 28px;
+  }
+
+  .bloco-pergunta-respostas {
+    padding: 15px;
+  }
+
+  .bloco-pergunta-lista {
+    padding: 10px 25px 10px 30px;
+    gap: 10px;
+  }
+}

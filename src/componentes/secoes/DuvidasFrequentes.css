@@ -1,0 +1,71 @@
+.duvidas {
+  padding: 80px 0;
+  background-color: rgba(82, 134, 80);
+}
+
+.duvidas-titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: beige;
+}
+
+.lista-duvidas {
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.lista-item {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.lista-item-pergunta {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 15px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2e2e2e;
+  transition: color 0.3s ease;
+}
+
+.lista-item-pergunta:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.lista-item-pergunta:hover {
+  color: #ffffff;
+}
+
+.seta {
+  font-size: 0.9rem;
+}
+
+.lista-item-resposta {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.6;
+  transition: all 0.4s ease;
+  padding: 0 10px 5px;
+}
+
+.lista-item-resposta.mostrar {
+  max-height: 300px;
+  opacity: 1;
+  margin-top: 5px;
+}

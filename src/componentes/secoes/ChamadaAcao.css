@@ -1,0 +1,24 @@
+.agendar-consulta {
+    background-color: var(--cor-de-fundo-secundaria);
+} 
+
+.agendar-consulta .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.chamada {
+    padding: 60px 0;
+    width: 60%;
+}
+
+.chamada-titulo {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.chamada-texto {
+    padding-bottom: 20px;
+}
