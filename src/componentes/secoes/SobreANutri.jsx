@@ -15,7 +15,7 @@ export default function SobreANutri() {
                         <h3 className="bloco-sobre__subtitulo">YASMIM PRADO</h3>
                         <p className="bloco-sobre__texto">Nutricionista com mais de 10 anos de experiência em consultório, atuo principalmente com emagrecimento e definição. Tenho especialização em Fitoterapia e Suplementação Clínica e Esportiva, o que me permite criar planos estratégicos e personalizados. Acredito em uma nutrição que transforma vidas, respeita suas preferências alimentares e se adapta ao ritmo do seu dia a dia.</p>
 
-                        <Botao href="https://api.whatsapp.com/send?phone=5579998617838&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.">
+                        <Botao href="https://api.whatsapp.com/send?phone=5579999896965&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta.">
                             Agendar consulta
                         </Botao>
                     </div>
