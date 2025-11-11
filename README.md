@@ -35,16 +35,13 @@ Este projeto foi desenvolvido com foco em **organização de componentes** e **b
 - React  
 - Vite  
 - JavaScript   
-- Responsividade Mobile-first  
-
 
 ## ✅ Funcionalidades
 
-- Layout responsivo  
-- Navegação suave entre seções  
-- Componentização organizada  
-- FAQ interativo  
-- Conteúdo objetivo e claro  
+- Layout responsivo
+- Navegação suave entre seções 
+- Componentização
+- FAQ interativo
 
 ## ✅ Como executar o projeto localmente
 
