@@ -8,6 +8,8 @@
 
 ![Prévia do site](./public/landingpage.gif)
 
+🔗 **Acesse o site:** [Landing Page Nutricionista](https://Yasmim123456.github.io/landing-page-nutricionista/)
+
 
 ---
 

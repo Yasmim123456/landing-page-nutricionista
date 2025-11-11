@@ -26,6 +26,10 @@
     width: 50%;
 }
 
+.bloco-sobre__subtitulo {
+  color:var(--cor-texto-claro);
+}
+
 .bloco-sobre__texto {
     padding: 20px 0;
 }
